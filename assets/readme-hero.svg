@@ -1,6 +1,6 @@
 <svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">My Pi setup terminal preview</title>
-  <desc id="desc">A clean terminal-style preview showing configuration details for a personal Pi setup.</desc>
+  <title id="title">My current Pi setup terminal preview</title>
+  <desc id="desc">A clean terminal-style preview showing current configuration, packages, custom commands, and public-safe git state for a personal Pi setup.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#070B10"/>
@@ -42,7 +42,7 @@
   </g>
 
   <g class="mono" font-size="18">
-    <text x="164" y="166"><tspan class="green">jens</tspan><tspan class="muted">@pi</tspan><tspan class="text">:</tspan><tspan class="cyan">~/.pi/agent</tspan><tspan class="text">$ </tspan><tspan class="text">pi setup --preview</tspan></text>
+    <text x="164" y="166"><tspan class="green">jens</tspan><tspan class="muted">@pi</tspan><tspan class="text">:</tspan><tspan class="cyan">~/.pi/agent</tspan><tspan class="text">$ </tspan><tspan class="text">pi setup --current</tspan></text>
     <rect x="164" y="190" width="872" height="1" fill="#223043"/>
 
     <text x="164" y="232" class="muted">project</text>
@@ -59,22 +59,29 @@
     <text x="800" y="270" class="muted">thinking</text>
     <text x="934" y="270" class="cyan">medium</text>
 
-    <text x="164" y="326" class="amber">packages</text>
-    <text x="292" y="326" class="text">pi-goal</text>
-    <text x="432" y="326" class="text">pi-subagents</text>
-    <text x="612" y="326" class="text">pi-phone</text>
-    <text x="744" y="326" class="text">pi-memory</text>
-    <text x="884" y="326" class="text">image-gen</text>
+    <text x="164" y="318" class="amber">packages</text>
+    <text x="292" y="318" class="text">goal</text>
+    <text x="380" y="318" class="text">subagents</text>
+    <text x="520" y="318" class="text">pi-phone</text>
+    <text x="650" y="318" class="text">memory</text>
+    <text x="760" y="318" class="text">image-gen</text>
+    <text x="900" y="318" class="text">plannotator</text>
 
-    <text x="164" y="382" class="green">restore</text>
-    <text x="292" y="382" class="text">git clone github.com/jvz-devx/my-pi-setup ~/.pi/agent</text>
-    <text x="292" y="418" class="text">pi update --extensions</text>
+    <text x="164" y="354" class="amber">tools</text>
+    <text x="292" y="354" class="text">ask-user-question</text>
+    <text x="510" y="354" class="text">todo</text>
+    <text x="610" y="354" class="text">custom /ccopy</text>
+    <text x="790" y="354" class="muted">public-safe repo</text>
 
-    <text x="164" y="462"><tspan class="green">✓</tspan><tspan class="text"> personal configuration synced</tspan><tspan class="muted">  •  secrets and runtime state ignored</tspan></text>
+    <text x="164" y="408" class="green">restore</text>
+    <text x="292" y="408" class="text">git clone github.com/jvz-devx/my-pi-setup ~/.pi/agent</text>
+    <text x="292" y="440" class="text">pi update --extensions</text>
+
+    <text x="164" y="462"><tspan class="green">✓</tspan><tspan class="text"> pushed to GitHub</tspan><tspan class="muted">  •  secrets, sessions, cache, plans ignored</tspan></text>
   </g>
 
   <g opacity="0.7">
     <rect x="150" y="140" width="900" height="328" rx="12" stroke="#162337"/>
-    <path d="M250 350H1032" class="line"/>
+    <path d="M250 376H1032" class="line"/>
   </g>
 </svg>
