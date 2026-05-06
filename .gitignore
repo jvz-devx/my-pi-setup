@@ -1,0 +1,33 @@
+# Secrets/auth
+.env
+.env.*
+!.env.example
+auth.json
+models.json
+*.key
+*.pem
+
+# Runtime/local state
+sessions/
+.pi/
+node_modules/
+
+# Generated research/scrape cache
+.firecrawl/
+
+# Local planning notes
+PLAN.md
+plans/
+
+# Local/global skill symlinks; install/share real skill packages instead
+skills/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store

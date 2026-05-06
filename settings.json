@@ -1,0 +1,18 @@
+{
+  "lastChangelogVersion": "0.73.0",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "medium",
+  "packages": [
+    "npm:@ramarivera/pi-goal",
+    "npm:@tintinweb/pi-subagents",
+    "git:https://github.com/jvz-devx/pi-phone@master",
+    "npm:@samfp/pi-memory",
+    "npm:pi-codex-image-gen",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@plannotator/pi-extension"
+  ],
+  "theme": "dark",
+  "steeringMode": "all"
+}
