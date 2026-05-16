@@ -10,6 +10,12 @@ models.json
 # Runtime/local state
 sessions/
 .pi/
+teams/
+run-history.jsonl
+mcp-cache.json
+mcp-npx-cache.json
+mcp-onboarding.json
+settings.json.bak-*
 node_modules/
 
 # Generated research/scrape cache

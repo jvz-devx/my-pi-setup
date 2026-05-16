@@ -1,18 +1,26 @@
 {
-  "lastChangelogVersion": "0.73.0",
+  "lastChangelogVersion": "0.74.0",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
   "packages": [
     "npm:@ramarivera/pi-goal",
-    "npm:@tintinweb/pi-subagents",
-    "git:https://github.com/jvz-devx/pi-phone@master",
+    "git:https://github.com/jvz-devx/pi-phone@svelte",
     "npm:@samfp/pi-memory",
     "npm:pi-codex-image-gen",
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@juicesharp/rpiv-todo",
-    "npm:@plannotator/pi-extension"
+    "npm:@plannotator/pi-extension",
+    "git:https://github.com/jvz-devx/pi-agent-teams@dynamic-tmux-spawn",
+    "npm:pi-mcp-adapter",
+    "npm:context-mode",
+    "npm:@howaboua/pi-codex-conversion"
   ],
   "theme": "dark",
-  "steeringMode": "all"
+  "steeringMode": "all",
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "enableInstallTelemetry": false,
+  "transport": "auto"
 }
